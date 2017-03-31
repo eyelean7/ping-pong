@@ -1,20 +1,23 @@
 //Back-End
 function pingPong(userNumber) {
+  //loop through each number
   for (var i=1; i<=userNumber; i++) {
+    // determine which are divisible by 3, 5, and both
     if (i%15 === 0) {
-      $("#output").append("<li>ping-pong</li>");
+      $("#output").append("<li><span class='word'>ping-pong</span></li>");
     }
     else if (i%5 === 0) {
-      $("#output").append("<li>pong</li>");
+      $("#output").append("<li><span class='word'>pong</span></li>");
     }
     else if (i%3 === 0) {
-      $("#output").append("<li>ping</li>");
+      $("#output").append("<li><span class='word'>ping</span></li>");
     }
     else {
       $("#output").append("<li>"+i+"</li>");
     }
-  }
+  }//end loop
 }
+
 
 //User Interface
 $(function() {
@@ -25,5 +28,13 @@ $(function() {
     $("#output").hide();
     $("#output").append(result);
     $("#output").slideDown();
+  });
+  $("ul").click(function() {
+    $(".word").animate({
+      marginLeft: "+=50px",
+    }, 1000);
+    $(".word").animate({
+      marginLeft: "-=50px",
+    }, 1000);
   });
 });

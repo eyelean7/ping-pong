@@ -7,6 +7,7 @@ function pingPong(userNumber) {
     }
     else if (i%5 === 0) {
       numArray.push("pong");
+
     }
     else if (i%3 === 0) {
       numArray.push("ping");
