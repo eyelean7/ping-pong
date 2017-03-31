@@ -1,6 +1,6 @@
 function pingPong (userNumber) {
-  var result = userNumber;
-  return result;
+  newNum = userNumber-1;
+  return newNum;
 }
 
 $(function() {
