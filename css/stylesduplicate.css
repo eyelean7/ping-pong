@@ -1,12 +1,23 @@
 body {
-  background-image: url("../img/pingpong.jpg");
-  background-color: #ffae00;
+  background-color: lightgrey;
+}
+#header {
+  background-color: #f7e08f;
+  padding: 20px;
+  margin-bottom: 20px;
 }
 .left {
+  background-color: #8edb64;
   padding: 5px;
-  background-color: lightgreen;
-  border-radius: 5px;
   min-height: 600px;
+  font-weight: bold;
+}
+.info  {
+  color:white;
+}
+.left h5 {
+  font-size: 20px;
+  color: #f7e08f;
 }
 #intro {
   background-color: lightgrey;
@@ -21,15 +32,10 @@ h1 {
 
 form {
   width: 400px;
-  margin: auto;
 }
 
 ul {
-  background-color: white;
-  border-radius: 5px;
-  width: 150px;
   font-size: large;
-  text-shadow: lightgreen 1px 1px 5px;
 }
 
 #output {
