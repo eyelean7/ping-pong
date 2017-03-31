@@ -24,6 +24,7 @@ _When the user submits a number, this program lists all numbers starting from 1 
 ## Known Bugs
 
 _Not tested in Safari, Internet Explorer, Mozilla_
+_Animations not fully functional in duplicate.html_
 
 ## Support and contact details
 

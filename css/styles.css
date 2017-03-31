@@ -5,10 +5,13 @@ body {
 .jumbotron {
   background-color: #ff823a;
 }
+.jumbotron p {
+  text-align: center;
+}
 h1, form {
   text-align: center;
 }
-p {
+p#output {
   font-size: 24px;
   color: purple;
   text-shadow: white 0 0 5px;

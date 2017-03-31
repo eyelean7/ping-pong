@@ -41,3 +41,6 @@ ul {
 #output {
   display: none;
 }
+.word {
+  position: relative;
+}

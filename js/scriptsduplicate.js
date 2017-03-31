@@ -16,7 +16,15 @@ function pingPong(userNumber) {
       $("#output").append("<li>"+i+"</li>");
     }
   }//end loop
-}
+}//end pingPong
+//define animation
+moveRight = function() {
+    $('.word').stop(true,true).animate({left: 300}, 1000, moveLeft);
+};
+moveLeft = function() {
+    $('.word').stop(true,true).animate({left: 0}, 1000, moveRight);
+};
+
 
 
 //User Interface
@@ -28,13 +36,7 @@ $(function() {
     $("#output").hide();
     $("#output").append(result);
     $("#output").slideDown();
-  });
-  $("ul").click(function() {
-    $(".word").animate({
-      marginLeft: "+=50px",
-    }, 1000);
-    $(".word").animate({
-      marginLeft: "-=50px",
-    }, 1000);
+    //animation
+    moveRight();
   });
 });
