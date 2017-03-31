@@ -1,0 +1,25 @@
+body {
+  background-image: url("../img/pingpong.jpg");
+  background-color: #ffae00;
+}
+.jumbotron {
+  background-color: #ff823a;
+}
+h1 {
+  text-align: center;
+}
+form {
+  width: 400px;
+  margin: auto;
+}
+ul {
+  background-color: white;
+  border-radius: 5px;
+  width: 150px;
+  font-size: large;
+  margin: 0px auto;
+  text-shadow: lightgreen 1px 1px 5px;
+}
+#output {
+  display: none;
+}
