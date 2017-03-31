@@ -6,7 +6,7 @@
 
 ## Description
 
-_When the user submits a number, this program lists all numbers starting from 1 and ending at that number. Any multiples of 3 are replaced with the word "ping" while any multiples of 5 are replaced with the word "pong". If the number is divisible by both 3 and 5 the resulting word is ping-pong._
+_When the user submits a number, this program lists all numbers starting from 1 and ending at that number. Any multiples of 3 are replaced with the word "ping" while any multiples of 5 are replaced with the word "pong". If the number is divisible by both 3 and 5 the resulting word is ping-pong. Click [here] (https://eyelean7.github.io/ping-pong/) to see the web page_
 
 ## SPECIFICATIONS
 | Description | Input | Output |
