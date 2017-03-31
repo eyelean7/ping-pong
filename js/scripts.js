@@ -24,6 +24,8 @@ $(function() {
     event.preventDefault();
     var userNumber = $("#number").val();
     var result = pingPong(userNumber);
+    $("#output").hide();
     $("#output").text(result);
+    $("#output").slideDown();
   });
 });

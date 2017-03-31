@@ -1,3 +1,15 @@
-.green {
-  align-content: green;
+body {
+  background-color: #ffae00;
+}
+.jumbotron {
+  background-color: #ff823a;
+}
+h1, form {
+  text-align: center;
+}
+p {
+  font-size: large;
+}
+#output {
+  display: none;
 }
