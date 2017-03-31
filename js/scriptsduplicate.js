@@ -17,13 +17,13 @@ function pingPong(userNumber) {
     }
   }//end loop
 }//end pingPong
-//define animation
-moveRight = function() {
-    $('.word').stop(true,true).animate({left: 300}, 1000, moveLeft);
-};
-moveLeft = function() {
-    $('.word').stop(true,true).animate({left: 0}, 1000, moveRight);
-};
+//define animation (not working)
+// moveRight = function() {
+//     $('.word').stop(true,true).animate({left: 300}, 1000, moveLeft);
+// };
+// moveLeft = function() {
+//     $('.word').stop(true,true).animate({left: 0}, 1000, moveRight);
+// };
 
 
 
@@ -36,7 +36,7 @@ $(function() {
     $("#output").hide();
     $("#output").append(result);
     $("#output").slideDown();
-    //animation
-    moveRight();
+    //animation (not working)
+    // moveRight();
   });
 });
